@@ -1,11 +1,15 @@
 import React from 'react';
+// import {StatusBar} from 'react-native';
+import Header from '~/components/Header';
+import Tabs from '~/components/Tabs';
 
-import {Text, View} from 'react-native';
+import {Container} from './styles';
 
 const Main = () => (
-  <View>
-    <Text>Structure ok!</Text>
-  </View>
+  <Container>
+    <Header />
+    <Tabs />
+  </Container>
 );
 
 export default Main;
